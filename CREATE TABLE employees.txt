@@ -1,0 +1,23 @@
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    department VARCHAR(50),
+    profession VARCHAR(50),
+    Address VARCHAR(50),
+    Sports VARCHAR(50)
+);
+
+INSERT INTO employees (id, name, age, department, profession, address, Sports)
+VALUES 
+  (1, 'Alice', 30, 'HR', 'Software Engineer', 'Executive block near Mezan Bank, Gulberg Green','basketball'),
+  (2, 'Muneeb', 24, 'Cloud Computing', 'QA Engineer', 'Ghauri Town, Islamabad', 'Cricket'),
+  (3, 'Ali', 27, 'Cloud Computing', 'QA Engineer', 'Ghauri Town, Islamabad, Street 15','Football'),
+  (4, 'Sara', 26, 'Finance', 'Financial Analyst', 'Bahria Town, Phase 4, Islamabad', 'Hockey'),
+  (5, 'Usman', 29, 'Software Development', 'Backend Developer', 'DHA Phase 2, Islamabad','Tabletennis'),
+  (6, 'Ayesha', 32, 'Marketing', 'Digital Marketer', 'F-10, Islamabad, Street 21','taken game'),
+  (7, 'Bilal', 28, 'IT Support', 'System Administrator', 'I-8, Islamabad','badminton'),
+  (8, 'Hina', 25, 'Human Resources', 'Recruitment Specialist', 'G-9, Islamabad','Rapid fire'),
+  (9, 'Farhan', 31, 'Data Science', 'Data Analyst', 'Gulberg Residencia, Islamabad','lodo');
+
+SELECT * FROM employees;
